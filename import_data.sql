@@ -16,7 +16,7 @@
 -- - Cleaner structure: More logical and maintainable database design
 
 -- ===========================================
--- DATA IMPORT SEQUENCE COMPLETED
+-- DATA IMPORT SEQUENCE
 -- ===========================================
 -- 
 -- Imported in chronological order:
@@ -29,7 +29,7 @@
 -- 7. 2021-2022.csv
 
 -- ===========================================
--- COLUMN MAPPING IMPLEMENTED
+-- COLUMN MAPPING
 -- ===========================================
 
 -- CSV Column → MySQL Column Mapping Used:
@@ -101,7 +101,7 @@
 -- PSCA → psc_away_odds (Pinnacle Sports Closing Away Odds)
 
 -- ===========================================
--- DATA VERIFICATION COMPLETED
+-- DATA VERIFICATION
 -- ===========================================
 
 -- Verification queries executed to ensure data integrity:
@@ -133,7 +133,7 @@ SELECT MIN(date) as StartDate, MAX(date) as EndDate FROM matches;
 SELECT * FROM matches LIMIT 5;
 
 -- ===========================================
--- REFERENCE TABLES POPULATED
+-- REFERENCE TABLES POPULATION
 -- ===========================================
 
 -- Reference tables successfully populated with comprehensive statistics:
@@ -404,3 +404,4 @@ FROM teams
 WHERE season = '2021-2022' 
 ORDER BY points DESC 
 LIMIT 5;
+
