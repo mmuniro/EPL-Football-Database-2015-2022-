@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This portfolio shows my SQL database design and data analysis skills using English Premier League (EPL) football data from 2015-2022. I built a database, imported/populated data, and wrote analysis queries that work well together.
+This project shows my SQL database design and data analysis skills using English Premier League (EPL) football data from 2015-2022. I built a database, imported/populated data, and wrote analysis queries that work well together.
 
 ## Database Architecture
 
