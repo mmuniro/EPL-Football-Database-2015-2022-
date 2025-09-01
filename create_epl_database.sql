@@ -1,7 +1,7 @@
 -- EPL Database Creation Script
 -- Handles all CSV files from 2015-2022
 
--- Database created successfully
+-- Database creation
 CREATE DATABASE IF NOT EXISTS epl_analysis;
 USE epl_analysis;
 
@@ -172,3 +172,4 @@ DESCRIBE match_odds;
 -- Table creation verification
 SELECT 'Tables created successfully' as status;
 SELECT COUNT(*) as seasons_count FROM seasons;
+
