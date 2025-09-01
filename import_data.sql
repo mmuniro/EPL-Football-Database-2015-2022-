@@ -7,13 +7,6 @@
 -- - teams table: Uses (team_name, season) composite primary key
 -- - seasons table: Uses season_name as primary key
 -- - match_odds table: Uses (match_id, bookmaker) composite primary key
--- 
--- Schema Design Benefits Achieved:
--- - More intuitive joins: JOIN teams ON matches.home_team = teams.team_name
--- - Meaningful identifiers: Team names and season names are self-explanatory
--- - Storage efficiency: Eliminates unnecessary auto-increment columns
--- - Better performance: Natural keys often perform better for lookups
--- - Cleaner structure: More logical and maintainable database design
 
 -- ===========================================
 -- DATA IMPORT SEQUENCE
@@ -135,8 +128,6 @@ SELECT * FROM matches LIMIT 5;
 -- ===========================================
 -- REFERENCE TABLES POPULATION
 -- ===========================================
-
--- Reference tables successfully populated with comprehensive statistics:
 
 -- Populate teams table with comprehensive statistics
 INSERT INTO teams (team_name, season, first_season, last_season, matches_played, wins, draws, losses, 
@@ -404,4 +395,5 @@ FROM teams
 WHERE season = '2021-2022' 
 ORDER BY points DESC 
 LIMIT 5;
+
 
