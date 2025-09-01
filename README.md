@@ -21,7 +21,7 @@ This project shows my SQL database design and data analysis skills using English
 - Composite primary keys and natural key design.
 - Data type optimization and constraint management.
 
-### SQL Analysis
+### SQL Queries
 - Complex aggregations and GROUP BY operations.
 - JOIN operations across multiple tables.
 - CASE statements for conditional logic.
